@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Sixtyfour+Convergence&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cinza-escuro: #006d77ff;
+    --cinza-fraco: #83c5beff;
+    --azulzin: #edf6f9ff;
+    --fraca: #ffddd2ff;
+    --fonte-titulo: "Sixtyfour Convergence", sans-serif;
+    --fonte-texto: "Quicksand", sans-serif;
+}
+
+body{
+    background-color: var(--cinza-escuro);
+    font-family:var(--fonte-texto);
+}
+header{
+    display: flex;
+    justify-content: center;
+    background: var(--cinza-fraco);
+    padding: 2rem 0;
+}
+h1{
+    font-family: var(--fonte-titulo);
+    color: var(--cinza-escuro);
+    font-size: 64px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    width: 100vw;
+
+}
+h2{
+    font-size: 32px;
+    margin-top: 4rem;
+    color: var(--fraca);
+}
+input{
+    width: 30%;
+    height: 2rem;
+    background-color: var(--azulzin);
+    align-items: center;
+    font-size: 32px;
+}
+button{
+    padding: 1.5rem;
+    border-radius: 20px;
+    box-shadow: 4px 4px 2px black;
+    background-color: var(--cinza-fraco);
+    font-family: var(--fonte-texto);
+    font-size: 16px;
+}
